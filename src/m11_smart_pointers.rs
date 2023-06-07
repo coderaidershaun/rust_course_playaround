@@ -1,5 +1,3 @@
-
-
 #[cfg(test)]
 mod tests {
   use std::rc::{Rc, Weak};
@@ -56,7 +54,7 @@ mod tests {
       house: Weak<House>
     }
 
-    let mut house_1 = Rc::new(House {
+    let house_1 = Rc::new(House {
       address_number: 123,
       street: "coding avenue".to_string(),
       furniture: RefCell::new(vec!())
