@@ -39,6 +39,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "ai_functions"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "911649227e07403a6c53676f9d15bf919e6541ffaad3a6d5ba5c3f6beed3d11b"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.18",
+]
+
+[[package]]
 name = "android-tzdata"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2084,6 +2095,7 @@ checksum = "26072860ba924cbfa98ea39c8c19b4dd6a4a25423dbdf219c1eca91aa0cf6964"
 name = "playaround"
 version = "0.1.0"
 dependencies = [
+ "ai_functions",
  "ethers",
  "my_proc_macro",
  "reqwest",
