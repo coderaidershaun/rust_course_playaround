@@ -8,6 +8,7 @@ mod m7_async;
 mod m8_collections;
 mod m9_decl_macros;
 mod m10_proc_macros;
+mod m11_smart_pointers;
 
 const OUR_COURSE: &str = "Rust with AutoGPT";
 
